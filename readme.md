@@ -11,4 +11,3 @@
 ### What are the request parameters for the templates endpoint?
 - We can add more information via parameters this endpoint:
 
-,,,

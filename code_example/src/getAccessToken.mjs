@@ -34,11 +34,11 @@ async function getAccessToken() {
 
 getAccessToken();
 
-function printError(err) {
+export default function printError(err) {
     console.error(err.message)
 }
 
-async function printResponse(res) {
+export default async function printResponse(res) {
     res = await res.json();
     console.log(res)
 }
